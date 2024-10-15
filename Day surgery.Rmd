@@ -1,0 +1,37 @@
+---
+title: "Day Surgery"
+author: "Adaku"
+date: "2024-10-14"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# DAY SURGERY UNIT
+The Day surgery unit is part of the surgical division of the hospital. In this unit, surgeries are performed and patients gets to go home same day. Four theatres run concurrently, each theatre having a range of 2 to 8 patient.
+
+## Order of the day
+**Here is how the unit is run on a daily basis:**\
+ 1. Patients are booked in by the receptionist\
+ 2. Then they are called into the ward by the nurses and the clinical support workers\
+ 3. The first on the list is prepared for the surgery by being assessed for safety to surgery to proceed\
+ 4. Afterwards, the surgeon and the anaesthetist come to also assess the patient\
+ 5. When the theatre is ready, the theatre ring the ward and the patient is taken to the theatre\
+ 6. After surgery, patient is taken to the recovery room to monitor patient untill fully awake of which they are taken back to the ward when awake.
+
+## Health Personnels involved in surgery
+ - Surgeon\
+ - Anaethestist\
+ - Nurses\
+ - ODPs\
+ - Clinical support workers
+ 
+```{r unit, echo=FALSE}
+print("it's an amazing unit")
+```
+ 
+  
